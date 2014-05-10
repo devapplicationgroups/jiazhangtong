@@ -45,8 +45,7 @@ CREATE TABLE `jzt_classes` (
   `name` varchar(45) DEFAULT '' COMMENT '班级名称',
   `grade` varchar(45) DEFAULT '' COMMENT '年级',
   `year` int(45) DEFAULT '0' COMMENT '年份',
-  `semester_id` int(11) DEFAULT '0' COMMENT '班主任id',
-  `semester_name` varchar(45) DEFAULT '' COMMENT '班主任名字',
+  `semester` varchar(45) DEFAULT '' COMMENT '学期',
   `create_time` int(11) DEFAULT NULL,
   `update_time` int(11) DEFAULT NULL,
   PRIMARY KEY (`class_id`)
